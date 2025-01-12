@@ -60,11 +60,11 @@ export const RouteName = [
         name: "Banner",
         icon: <ViewCarouselIcon />,
     },
-    {
-        path: "/recharge",
-        name: "Recharge",
-        icon: <TextSnippetIcon />,
-    },
+    // {
+    //     path: "/recharge",
+    //     name: "Recharge",
+    //     icon: <TextSnippetIcon />,
+    // },
     {
         name: "Astro Mall",
         icon: <LightbulbCircleIcon />,
@@ -133,16 +133,16 @@ export const RouteName = [
         name: "Skill",
         icon: <AddLinkIcon />,
     },
-    {
-        path: "/remedies",
-        name: "Remedies",
-        icon: <MedicationIcon />,
-    },
-    {
-        path: "/main-expertise",
-        name: "Main Expertise",
-        icon: <FluorescentIcon />,
-    },
+    // {
+    //     path: "/remedies",
+    //     name: "Remedies",
+    //     icon: <MedicationIcon />,
+    // },
+    // {
+    //     path: "/main-expertise",
+    //     name: "Main Expertise",
+    //     icon: <FluorescentIcon />,
+    // },
     {
         path: "/history",
         name: "History",
@@ -175,21 +175,21 @@ export const RouteName = [
             },
         ],
     },
-    {
-        path: "/gift",
-        name: "Gift",
-        icon: <RedeemIcon />,
-    },
+    // {
+    //     path: "/gift",
+    //     name: "Gift",
+    //     icon: <RedeemIcon />,
+    // },
     {
         path: "/review",
         name: "Review",
         icon: <PreviewIcon />,
     },
-    {
-        path: "/astro-blog",
-        name: "AstroBlog",
-        icon: <RateReviewIcon />,
-    },
+    // {
+    //     path: "/astro-blog",
+    //     name: "AstroBlog",
+    //     icon: <RateReviewIcon />,
+    // },
     {
         name: "Master",
         icon: <NotificationsNoneIcon />,
@@ -248,9 +248,9 @@ export const RouteName = [
         name: "Language",
         icon: <BiAbacus />,
     },
-    {
-        path: "/announcement",
-        name: "Announcement",
-        icon: <CampaignIcon fontSize="30px" />,
-    },
+    // {
+    //     path: "/announcement",
+    //     name: "Announcement",
+    //     icon: <CampaignIcon fontSize="30px" />,
+    // },
 ];

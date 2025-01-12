@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import { Provider } from "react-redux";
-import store from "./redux/store";
+import store from "./redux/Store.js";
 import { ThemeProvider, createTheme } from "@mui/material";
 import { BrowserRouter as Router } from "react-router-dom";
 
