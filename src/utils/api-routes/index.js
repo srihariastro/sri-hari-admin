@@ -1,13 +1,14 @@
-export let base_url, img_url, api_url;
+export let base_url, img_url, api_url
+const API_URL = 'https://api.srihariastro.com/'
 
 if (window.location.protocol === 'http:') {
-    base_url = "https://api.astroremedy.com/";
-    img_url = "https://api.astroremedy.com/uploads/";
-    api_url = "https://api.astroremedy.com/api/";
+    base_url = API_URL;
+    img_url = `${API_URL}uploads/`;
+    api_url = `${API_URL}api/`;
 } else if (window.location.protocol === 'https:') {
-    base_url = "https://api.astroremedy.com/";
-    img_url = "https://api.astroremedy.com/uploads/";
-    api_url = "https://api.astroremedy.com/api/";
+    base_url = API_URL;
+    img_url = `${API_URL}uploads/`;
+    api_url = `${API_URL}api/`;
 } else {
     console.log('Unknown protocol');
 };

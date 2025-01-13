@@ -2,8 +2,8 @@ import { makeStyles } from "@mui/styles";
 import login_background from "../images/login_background.jpg";
 
 export const Colors = {
-  primaryDark: "#F15F4B",
-  primaryLight: "#F15F4B",
+  primaryDark: "#0384fc",
+  primaryLight: "#0384fc",
   white: "#fff",
   whiteDark: "#F5F5F5",
   grayLight: "#ECEAEA",
