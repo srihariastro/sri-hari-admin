@@ -133,16 +133,16 @@ export const RouteName = [
         name: "Skill",
         icon: <AddLinkIcon />,
     },
-    // {
-    //     path: "/remedies",
-    //     name: "Remedies",
-    //     icon: <MedicationIcon />,
-    // },
-    // {
-    //     path: "/main-expertise",
-    //     name: "Main Expertise",
-    //     icon: <FluorescentIcon />,
-    // },
+    {
+        path: "/remedies",
+        name: "Remedies",
+        icon: <MedicationIcon />,
+    },
+    {
+        path: "/main-expertise",
+        name: "Main Expertise",
+        icon: <FluorescentIcon />,
+    },
     {
         path: "/history",
         name: "History",
