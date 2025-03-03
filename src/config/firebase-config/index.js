@@ -5,13 +5,14 @@ import { query } from "firebase/firestore";
 import { getMessaging } from "firebase/messaging";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDMirwB_ms0XHhiOU1XaVZ5SLgd-ylxB7M",
-  authDomain: "astroremedy-90cb0.firebaseapp.com",
-  databaseURL: "https://astroremedy-90cb0-default-rtdb.firebaseio.com",
-  projectId: "astroremedy-90cb0",
-  storageBucket: "astroremedy-90cb0.appspot.com",
-  messagingSenderId: "395034377495",
-  appId: "1:395034377495:web:c2311de2d8982ea31dcb52",
+  apiKey: "AIzaSyAgB6EMXnXNL0rMbp8EyeCkPdRYVvOUI50",
+  authDomain: "sri-hari-astro.firebaseapp.com",
+  databaseURL: "https://sri-hari-astro-default-rtdb.firebaseio.com",
+  projectId: "sri-hari-astro",
+  storageBucket: "sri-hari-astro.firebasestorage.app",
+  messagingSenderId: "897514154521",
+  appId: "1:897514154521:web:fac5bd35ff731a036b1888",
+  measurementId: "G-TGWFPW59JX"
 };
 
 //! Initialize Firebase
